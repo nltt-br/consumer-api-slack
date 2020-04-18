@@ -10,6 +10,11 @@ BABAYAGA_SLACK_ID = '#'
 babayaga_slack_client = slackclient.SlackClient(BABAYAGA_SLACK_TOKEN)
 
 
+def find_domain_virus_total(message):
+    #validador 
+    if(message) 
+
+
 # TODO SLACK Specific
 def is_private(event):
     """Checks if on a private slack channel"""
